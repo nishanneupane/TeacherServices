@@ -17,6 +17,7 @@ const Home = () => {
     TeacherService.findAllTeacher()
       .then(data => {
         setTeacher(data);
+        console.log(data)
       })
       .catch(error => {
         console.log(error);
