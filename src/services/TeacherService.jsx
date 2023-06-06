@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL="http://localhost:2023/api/v1/teacher"
+const BASE_URL="teacherservice-production.up.railway.app/api/v1/teacher"
 class TeacherService{
     
     addTeacher(Teacher){
